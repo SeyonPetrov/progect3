@@ -16,8 +16,6 @@ class Search2(QMainWindow):
         long = self.lineEdit_3.text()
 
 
-
-
 def except_hook(cls, exception, traceback):
     sys.__excepthook__(cls, exception, traceback)
 
