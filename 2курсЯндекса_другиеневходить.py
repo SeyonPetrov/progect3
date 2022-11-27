@@ -6,7 +6,7 @@ import sys
 SCREEN_SIZE = WIDTH, HEIGHT = (700, 600)
 
 # Готовим 200 кругов в случайных местах случайного радиуса и цвета
-N = 100
+N = 200
 CIRCLES = [
     {
         'xy': [uniform(0 + 30, WIDTH - 30), uniform(30, HEIGHT - 30)],
